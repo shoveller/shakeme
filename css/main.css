@@ -1,0 +1,285 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#content {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+}
+.box {
+  width: 500px;
+  line-height: 500px;
+  background-color: rgba(255, 0, 0, 0.1);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box {
+  width: 460px;
+  line-height: 460px;
+  background-color: rgba(255, 0, 0, 0.096);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box {
+  width: 420px;
+  line-height: 420px;
+  background-color: rgba(255, 0, 0, 0.092);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box {
+  width: 380px;
+  line-height: 380px;
+  background-color: rgba(255, 0, 0, 0.088);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box {
+  width: 340px;
+  line-height: 340px;
+  background-color: rgba(255, 0, 0, 0.084);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box>.box {
+  width: 300px;
+  line-height: 300px;
+  background-color: rgba(255, 0, 0, 0.08);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box>.box>.box {
+  width: 260px;
+  line-height: 260px;
+  background-color: rgba(255, 0, 0, 0.076);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box>.box>.box>.box {
+  width: 220px;
+  line-height: 220px;
+  background-color: rgba(255, 0, 0, 0.072);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box>.box>.box>.box>.box {
+  width: 180px;
+  line-height: 180px;
+  background-color: rgba(255, 0, 0, 0.068);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box>.box>.box>.box>.box>.box {
+  width: 140px;
+  line-height: 140px;
+  background-color: rgba(255, 0, 0, 0.064);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box>.box>.box>.box>.box>.box>.box {
+  width: 100px;
+  line-height: 100px;
+  background-color: rgba(255, 0, 0, 0.06);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.box>.box>.box>.box>.box>.box>.box>.box>.box>.box>.box>.box {
+  width: 60px;
+  line-height: 60px;
+  background-color: rgba(255, 0, 0, 0.056);
+  vertical-align: text-bottom;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+@keyframes shakeme {
+  0% {
+    transform: translate(2px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(2px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(2px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+.box:hover {
+  animation-name: shakeme;
+  animation-duration: 0.8s;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/*# sourceMappingURL=main.css.map */
